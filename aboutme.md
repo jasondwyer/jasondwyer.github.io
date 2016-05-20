@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+This is the site of Jason Dwyer. I am a neuroscientist and software developer. This site represents a mix of both.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Education
+- Yale University, PhD Neuroscience (2015)
+- Yale University, MPhil Neuroscience (2012)
+- Rutgers University, BA Psychology (2005)
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I can be reached on Twitter: @jm_dwyer
