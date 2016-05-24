@@ -4,7 +4,7 @@ title: About me
 subtitle: 
 ---
 
-This is the site of Jason Dwyer. I am a neuroscientist and software developer. This site represents a mix of both, in no specific order.
+I am a neuroscientist and software developer. I currently develop for iOS (objective c and swift), node.js and python.
 
 **_Education_**
 
