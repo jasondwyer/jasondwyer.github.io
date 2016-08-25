@@ -14,12 +14,12 @@ Usage:
 
 First import the necessary header file into the class in which you would like to use the helper:
 
-
+return
 `#import ULRectHelper.h`
 
 Create an instance of the helper class:
 
-
+return
 `ULRectHelper *helper = [[ULRectHelper alloc] init];`
 
 To create a basic CGRect to use for a UIView frame (or UIView subclass):
