@@ -25,7 +25,7 @@ Create an instance of the helper class:
 To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 
 
-`CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0]];`
+`CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];`
 
 Create a `UIView` and use the previously designed frame:
 
