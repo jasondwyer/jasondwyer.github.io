@@ -15,22 +15,21 @@ Usage:
 First import the necessary header file into the class in which you would like to use the helper:
 
 
-return
 `#import ULRectHelper.h`
 
 Create an instance of the helper class:
 
-return
+
 `ULRectHelper *helper = [[ULRectHelper alloc] init];`
 
 To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 
-return
+
 `CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0]];`
 
 Create a `UIView` and use the previously designed frame:
 
-return
+
 `UIView *testView = [[UIView alloc] initWithFrame:exampleFrame];`
 
 The `testView` will now have a width of 60% of the screen width and 10% of the screen height. The `UIView` will be positioned 20% left of the left screen edge and 15% from the top edge of the screen.
