@@ -21,12 +21,9 @@ First import the necessary header file into the class in which you would like to
 
 **Objective-C**
 
-
 `#import ULRectHelper.h`
 
-
 **Swift**
-
 
 Importing is not necessary.
 
