@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ULRect
+title: ULRRect
 subtitle: Light-weight classes for building UIViews programmatically in Objective-C and Swift
 ---
 
@@ -21,7 +21,7 @@ First import the necessary header file into the class in which you would like to
 
 **Objective-C**
 
-`#import ULRectHelper.h`
+`#import ULRRectHelper.h`
 
 **Swift**
 
@@ -36,11 +36,11 @@ Create an instance of the helper class:
 **Objective-C**
 
 
-`ULRectHelper *helper = [[ULRectHelper alloc] init];`
+`ULRRectHelper *helper = [[ULRRectHelper alloc] init];`
 
 
 **Swift**
-`let helper = ULRectHelper.init()`
+`let helper = ULRRectHelper.init()`
 
 
 
