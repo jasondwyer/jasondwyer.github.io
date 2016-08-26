@@ -18,14 +18,12 @@ To get started simply clone the `ULRect` project to your local file system and c
 Usage:
 
 First import the necessary header file into the class in which you would like to use the helper:
-
 **Objective-C**
-
 `#import ULRectHelper.h`
 
 **Swift**
 
-Importing is not necessary.
+`//Importing is not necessary.`
 
 
 Create an instance of the helper class:
