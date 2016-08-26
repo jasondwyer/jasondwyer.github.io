@@ -18,12 +18,16 @@ To get started simply clone the `ULRect` project to your local file system and c
 Usage:
 
 First import the necessary header file into the class in which you would like to use the helper:
+
 **Objective-C**
+
 `#import ULRectHelper.h`
 
 **Swift**
 
 `//Importing is not necessary.`
+
+
 
 
 Create an instance of the helper class:
@@ -36,7 +40,9 @@ Create an instance of the helper class:
 
 
 **Swift**
-let helper = ULRectHelper.init()
+`let helper = ULRectHelper.init()`
+
+
 
 
 To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
@@ -46,6 +52,8 @@ To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 
 
 `CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];`
+
+
 
 
 Create a `UIView` and use the previously designed frame:
