@@ -27,7 +27,7 @@ navbar-links:
   Resources:
     - Papers: "http://www.ncbi.nlm.nih.gov/pubmed/?term=jason+m+dwyer"
     - Apps: "http:/appstore.com/jasondwyer"
-    - ULRect: "ulrect"
+    - ULRRect: "ulrrect"
     - Dev Projects: "projects"
     - Research: "research"
   Home: "http://jasondwyer.github.io"
