@@ -4,6 +4,13 @@ title: About me
 subtitle: 
 ---
 
+`{
+    name: "Jason Dwyer",
+    education: "Yale University",
+    degree: "PhD",
+    field: "Neuroscience"
+}`
+
 I am a neuroscientist and software developer, and I'm deeply interested in the interface of those things. I believe that biology and neuroscience can significantly inform software development and vice versa. I develop mostly for objective c, javascript (node.js) and python. In my spare time I am developing several side projects in machine learning and mobile dev (iOS), and I founded @branebits, an indie game studio that makes games for iPhone and iPad. My main development focus is based on fintech.
 
 **_Education_**
