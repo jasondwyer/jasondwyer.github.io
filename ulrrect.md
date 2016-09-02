@@ -40,9 +40,9 @@ Create an instance of the helper class:
 
 
 **Swift**
-`let helper = ULRRectHelper.init()`
 
 
+`let helper = ULRRectSwiftHelper()`
 
 
 To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
@@ -54,6 +54,9 @@ To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 `CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];`
 
 
+**Swift**
+
+`let exampleFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)`
 
 
 Create a `UIView` and use the previously designed frame:
@@ -64,6 +67,10 @@ Create a `UIView` and use the previously designed frame:
 
 `UIView *testView = [[UIView alloc] initWithFrame:exampleFrame];`
 
+
+**Swift**
+
+`let testView = UIView.init(frame: exampleFrame)`
 
 The `testView` will now have a width of 60% of the screen width and 10% of the screen height. The `UIView` will be positioned 20% left of the left screen edge and 15% from the top edge of the screen.
 
