@@ -46,6 +46,8 @@ Create an instance of the helper class:
 `let helper = ULRRectSwiftHelper()`
 
 
+***
+
 To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 
 
@@ -59,6 +61,8 @@ To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 
 `let exampleFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)`
 
+
+***
 
 Create a `UIView` and use the previously designed frame:
 
