@@ -28,6 +28,7 @@ First import the necessary header file into the class in which you would like to
 `//Importing is not necessary.`
 
 
+***
 
 
 Create an instance of the helper class:
