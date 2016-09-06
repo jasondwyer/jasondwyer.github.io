@@ -79,3 +79,43 @@ Create a `UIView` and use the previously designed frame:
 
 The `testView` will now have a width of 60% of the screen width and 10% of the screen height. The `UIView` will be positioned 20% left of the left screen edge and 15% from the top edge of the screen.
 
+
+***
+
+Determine the user's device:
+
+
+**Objective-C**
+
+`BOOL phone = [helper isPhone];`
+
+
+**Swift**
+
+`let phone = self.isPhone()`
+
+`phone` will return `true` if the user's device is an iPhone, and `false` if the device is an iPad
+
+
+***
+
+Create a `UILabel` with an adaptive font:
+
+
+**Objective-C**
+
+`CGRect labelFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];`
+`UILabel *exampleLabel = [[UILabel alloc] initWithFrame:labelFrame];`
+`exampleLabel.font = [UIFont systemFontOfSize:[helper adaptiveFontSized:32]];`
+
+
+**Swift**
+
+
+`let labelFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)`
+`let exampleLabel = UILabel.init(frame: labelFrame)`
+`exampleLabel.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))`
+
+
+Creates a `UILabel` with either the entered size or scale up 1.8x if the device is an iPad 
+
