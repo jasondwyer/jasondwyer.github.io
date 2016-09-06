@@ -92,7 +92,7 @@ Determine the user's device:
 
 **Swift**
 
-`let phone = self.isPhone()`
+`let phone = helper.isPhone()`
 
 `phone` will return `true` if the user's device is an iPhone, and `false` if the device is an iPad
 
