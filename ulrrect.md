@@ -15,7 +15,7 @@ Building `UIView` frames programmatically is challenging. The options are to har
 
 To get started simply clone the `ULRRect` project to your local file system and copy the helper classes into your XCode project. There are helper classes for both Objective-C and Swift. Note that the Objective-C classes can be used in a Swift project and vice versa, although the most straight-forward way is to use the Obj-C class in an Obj-C project. The same goes for the Swift helper class.
 
-Usage:
+***Usage:***
 
 First import the necessary header file into the class in which you would like to use the helper:
 
