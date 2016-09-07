@@ -82,6 +82,17 @@ The `testView` will now have a width of 60% of the screen width and 10% of the s
 
 ***
 
+Create a square frame:
+
+**Objective-C**
+
+`CGRect squareFrame = [helper squareFrameWithXPoint:20.0 YPoint:10.0 sideLengthAsPercentOfWidth:50.0];`
+
+
+All `squareFrame` sides will be 50% of the device width.
+
+***
+
 Determine the user's device:
 
 
