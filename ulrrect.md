@@ -104,19 +104,20 @@ Create a `UILabel` with an adaptive font:
 
 **Objective-C**
 
-~~~
+
+```
 CGRect labelFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];
 UILabel *exampleLabel = [[UILabel alloc] initWithFrame:labelFrame];
 exampleLabel.font = [UIFont systemFontOfSize:[helper adaptiveFontSized:32]];
-~~~
+```
 
 **Swift**
 
-
-`let labelFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)`
-`let exampleLabel = UILabel.init(frame: labelFrame)`
-`exampleLabel.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))`
-
+```
+let labelFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)
+let exampleLabel = UILabel.init(frame: labelFrame)
+exampleLabel.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))
+```
 
 Creates a `UILabel` with either the entered size or scale up 1.8x if the device is an iPad 
 
