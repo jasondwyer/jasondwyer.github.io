@@ -47,7 +47,7 @@ author:
   github: jasondwyer    # eg. daattali
   twitter: JM_Dwyer   # eg. daattali
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-  stackoverflow: yourlink  # eg. "3943160/daattali"
+  stackoverflow: 5556671/jsondwyer  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
 footer-links-active:
@@ -61,7 +61,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
