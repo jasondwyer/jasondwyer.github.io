@@ -4,7 +4,7 @@ title: About me
 subtitle: 
 ---
 
-```javascript
+```swift
 { "name":"jason dwyer",
   "profession":"neuroscientist",
   "degree":"PhD",
