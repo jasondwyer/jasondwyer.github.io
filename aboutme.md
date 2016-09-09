@@ -14,7 +14,8 @@ subtitle:
                 "artificial intelligence",
                 "machine learning",
                 "fintech",
-                "mobile app development"]
+                "mobile app development",
+                "bluetooth"]
   "languages": ["objective-c",
                 "swift",
                 "python",
