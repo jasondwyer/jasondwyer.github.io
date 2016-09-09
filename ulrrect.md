@@ -140,7 +140,9 @@ Create a `UILabel` with an adaptive font:
 ```swift
 CGRect labelFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];
 
+
 UILabel *exampleLabel = [[UILabel alloc] initWithFrame:labelFrame];
+
 
 exampleLabel.font = [UIFont systemFontOfSize:[helper adaptiveFontSized:32]];
 ```
@@ -150,7 +152,9 @@ exampleLabel.font = [UIFont systemFontOfSize:[helper adaptiveFontSized:32]];
 ```swift
 let labelFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)
 
+
 let exampleLabel = UILabel.init(frame: labelFrame)
+
 
 exampleLabel.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))
 ```
