@@ -4,7 +4,10 @@ title: ULRRect
 subtitle: Light-weight classes for building UIViews programmatically in Objective-C and Swift
 ---
 
-This is the main documentation page for `UltraLightRect`. You can get the source code here:[ULRRect Github Project](https://github.com/jasondwyer/ulrrect)
+This is the main documentation page for `UltraLightRect`. You can get the source code here:
+
+
+[ULRRect Github Project](https://github.com/jasondwyer/ulrrect)
 
 Why does `ULRRect` exist?
 
