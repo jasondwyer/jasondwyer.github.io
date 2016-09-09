@@ -148,5 +148,5 @@ let exampleLabel = UILabel.init(frame: labelFrame)
 exampleLabel.font = UIFont.systemFontOfSize(self.adaptiveFontSized(32))
 ```
 
-Creates a `UILabel` with either the entered size or scale up 1.8x if the device is an iPad 
+Creates a `UILabel` with either the entered size or scaled up 1.8x if the device is an iPad. 
 
