@@ -69,7 +69,7 @@ CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 H
 
 ```swift
 let exampleFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)
-``
+```
 
 ***
 
