@@ -21,12 +21,15 @@ First import the necessary header file into the class in which you would like to
 
 **Objective-C**
 
-`#import ULRRectHelper.h`
+```swift
+#import ULRRectHelper.h
+```
 
 **Swift**
 
-`//Importing is not necessary.`
-
+```swift
+//Importing is not necessary.
+```
 
 ***
 
@@ -37,14 +40,17 @@ Create an instance of the helper class:
 **Objective-C**
 
 
-`ULRRectHelper *helper = [[ULRRectHelper alloc] init];`
+```swift
+ULRRectHelper *helper = [[ULRRectHelper alloc] init];
+```
 
 
 **Swift**
 
 
-`let helper = ULRRectSwiftHelper()`
-
+```swift
+let helper = ULRRectSwiftHelper()
+```
 
 ***
 
@@ -54,13 +60,16 @@ To create a basic `CGRect` to use for a `UIView` frame (or `UIView` subclass):
 **Objective-C**
 
 
-`CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];`
+```swift
+CGRect exampleFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];
+```
 
 
 **Swift**
 
-`let exampleFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)`
-
+```swift
+let exampleFrame = helper.quickFrameWithXPoint(20.0, YPoint: 15.0, Width: 60.0, Height: 10.0)
+``
 
 ***
 
@@ -70,12 +79,16 @@ Create a `UIView` and use the previously designed frame:
 **Objective-C**
 
 
-`UIView *testView = [[UIView alloc] initWithFrame:exampleFrame];`
+```swift
+UIView *testView = [[UIView alloc] initWithFrame:exampleFrame];
+```
 
 
 **Swift**
 
-`let testView = UIView.init(frame: exampleFrame)`
+```swift
+let testView = UIView.init(frame: exampleFrame)
+```
 
 The `testView` will now have a width of 60% of the screen width and 10% of the screen height. The `UIView` will be positioned 20% left of the left screen edge and 15% from the top edge of the screen.
 
@@ -86,7 +99,9 @@ Create a square frame:
 
 **Objective-C**
 
-`CGRect squareFrame = [helper squareFrameWithXPoint:20.0 YPoint:10.0 sideLengthAsPercentOfWidth:50.0];`
+```swift
+CGRect squareFrame = [helper squareFrameWithXPoint:20.0 YPoint:10.0 sideLengthAsPercentOfWidth:50.0];
+```
 
 
 All `squareFrame` sides will be 50% of the device width.
@@ -98,12 +113,15 @@ Determine the user's device:
 
 **Objective-C**
 
-`BOOL phone = [helper isPhone];`
-
+```swift
+BOOL phone = [helper isPhone];
+```
 
 **Swift**
 
-`let phone = helper.isPhone()`
+```swift
+let phone = helper.isPhone()
+```
 
 `phone` will return `true` if the user's device is an iPhone, and `false` if the device is an iPad
 
@@ -116,7 +134,7 @@ Create a `UILabel` with an adaptive font:
 **Objective-C**
 
 
-```objective-c
+```swift
 CGRect labelFrame = [helper quickFrameWithXPoint:20.0 YPoint:15.0 Width:60.0 Height:10.0];
 UILabel *exampleLabel = [[UILabel alloc] initWithFrame:labelFrame];
 exampleLabel.font = [UIFont systemFontOfSize:[helper adaptiveFontSized:32]];
