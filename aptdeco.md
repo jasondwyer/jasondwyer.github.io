@@ -37,7 +37,6 @@ A cursory glance over the data revealed various different product types: sofas, 
 
 After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for `NULL` values and munging it all together, I finally had a Pandas DataFrame that contained my features for every sofa item.
 
-<br>
 
 | Features |
 | :------- |
