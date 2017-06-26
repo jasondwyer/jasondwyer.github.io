@@ -29,7 +29,7 @@ In consulting with AptDeco, we decided on a strategy to try developing a machine
 
 A cursory glance over the data revealed various different product types: sofas, storage units, dressers, lamps. And the list goes on. I was initially overwhelmed and pestered by thoughts of how well dressers and lamps would cross-predict, that is, would knowing how dressers sell allow you to make predictions on lamps? Given the limited time and the desire to make the greatest impact possible, I refocused on the iterative MVP process and decided to narrow the focus to sofas. These are one of the higher-volume sellers, so this would be a great place to start.
 
-After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for NULL values and munging it all together, I finally had a Pandas DataFrame that contained my features:
+After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for NULL values and munging it all together, I finally had a Pandas DataFrame that contained my features. Here is an example item:
 
 
 | item_id | price | age | condition | views | wishlist_adds | cart_adds
