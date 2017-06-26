@@ -48,11 +48,7 @@ After flexing my burgeoning Pandas skills to apply the requisite data cleaning, 
 
 <br>
 
-My labels were simply boolean values: 
-
-True = Purchased
-
-False = Not Purchased
+My labels were simply boolean values:  `True = Purchased`, `False = Not Purchased`
 
 Next came model selection. Initially I experimented with a handful of classifiers without much tuning. The models themselves were the Scikit-Learn implementations: Stochastic Gradient Descent, Logistic Regression and Random Forest. Random Forest provided the best accuracy out of the box at 88%. Leveraging the elegant tool sets provided by SKLearn, I let GridSearchCV do the heavy lifting in determining the best model hyperparameters
 
