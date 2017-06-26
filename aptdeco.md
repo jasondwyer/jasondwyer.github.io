@@ -58,7 +58,7 @@ Below is the model’s Receiver Operatic Characteristic (ROC) curve for which we
 
 <br>
 
-![ROC Curve](/img/roc_curve.png)
+![ROC Curve](/img/aptdeco_roc_curve.png)
 
 <br>
 
@@ -66,7 +66,7 @@ Another thing that helps us visualize classifier performance is a Confusion Matr
 
 <br>
 
-![Confusion Matrix](/img/confusion_matrix.png)
+![Confusion Matrix](/img/aptdeco_confusion_matrix.png)
 
 <br>
 
