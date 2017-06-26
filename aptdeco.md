@@ -15,9 +15,8 @@ I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with 
 
 <br>
 
-###Predicting product sell-through
-
-In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
+### In the early summer of 2017, 
+I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
 
 Started out of Y-Combinator, the Insight program is seven weeks of intense immersion into data science, the kind that is poised to meaningfully impact nearly every industry that exists. More than that, it’s an opportunity to focus on a self-driven project, get your hands dirty with the little details, and get a crash course in the everyday tools that drive the booming data science industry.
 
