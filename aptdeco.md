@@ -33,11 +33,13 @@ A cursory glance over the data revealed various different product types: sofas, 
 
 After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for `NULL` values and munging it all together, I finally had a Pandas DataFrame that contained my features. Here is an example item:
 
+<br>
 
 | item_id | price | age | condition | views | wishlist_adds | cart_adds
 | :------ |:--- | :--- | :----- | :--- | :------- | :----- | 
 | 1 | $570 | 2 | Good | 78 | 12 | 2 |
 
+<br>
 
 My labels were simply boolean values: True = Purchased, False = Not Purchased.
 
