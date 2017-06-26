@@ -58,7 +58,7 @@ Below is the model’s Receiver Operatic Characteristic (ROC) curve for which we
 
 <br>
 
-![Crepe](http://lafenicegelato.com/wp-content/uploads/2014/09/crepes-with-chocolate.jpg)
+![ROC Curve](/img/roc_curve.png)
 
 <br>
 
@@ -66,7 +66,7 @@ Another thing that helps us visualize classifier performance is a Confusion Matr
 
 <br>
 
-![Crepe](http://lafenicegelato.com/wp-content/uploads/2014/09/crepes-with-chocolate.jpg)
+![Confusion Matrix](/img/confusion_matrix.png)
 
 <br>
 
