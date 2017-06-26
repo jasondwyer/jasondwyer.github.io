@@ -37,6 +37,17 @@ After flexing my burgeoning Pandas skills to apply the requisite data cleaning, 
 
 <br>
 
+| Features |
+| :------- |
+| price |
+| age |
+| condition |
+| views |
+| wishlist adds |
+| cart adds |
+
+<br>
+
 | item_id | price | age | condition | views | wishlist_adds | cart_adds
 | :------ |:--- | :--- | :----- | :--- | :------- | :----- | 
 | 1 | $570 | 2 | Good | 78 | 12 | 2 |
