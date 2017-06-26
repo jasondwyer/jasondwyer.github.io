@@ -6,6 +6,7 @@ bigimg: /img/orange-sofa.jpg
 ---
 
 **TL;DR**
+
 I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with [Insight Data Science](http://insightdatascience.com) NYC (S17). My goal was to build a machine learning model to predict which furniture items are likely to sell. The best results came from a Random Forest classifier tuned with GridSearch and cross-validation achieving accuracy of 92%. This work will have a real-world impact on how AptDeco ranks their products to users, boosting item sell-through and helping maximize revenue.
 
 ***
@@ -20,7 +21,7 @@ For my Insight project, I had the opportunity to work on a consulting project fo
 
 A quick glance at the AptDeco homepage will give you a feel for how the site is structured; items are divided into categories, and then further into smaller categories. So say for example you’re feeling rather lounge-y and decide to browse ‘Sofas.’ At the time of writing, there are 1,494 sofas displayed. This leads us up to the problem and the task at hand:
 
-        *As your company grows and the number of products increases, how do you present relevant items to new users?*
+   *As your company grows and the number of products increases, how do you present relevant items to new users?*
 
 A fair first shot is to simply show the items chronologically, that is, the most recently posted items on the first page and so forth. If the velocity of new postings is rapid, perfectly good items can get buried under the heap, while the ‘newer’ items will be the first things your visiting customers see. Remember, ‘newer’ does not mean ‘better’ or ‘more likely to sell.’
 
