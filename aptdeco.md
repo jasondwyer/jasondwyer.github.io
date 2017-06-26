@@ -54,7 +54,7 @@ For those unfamiliar, Random Forest is an ensemble machine learning algorithm. T
 
 Often when evaluating the performance of a classifier we care about more than accuracy. Especially when classes are not balanced. For example, if you’re predicting the percentage of fire trucks that are red and just guess ‘Yes’ (red) every time, you can get 90% accuracy given that 90% of fire trucks are red. But you haven’t really learned anything. 
 
-Below is the model’s Receiver Operatic Characteristic (ROC) curve for which we plot the True Positive Rate (y-axis) over the False Positive Rate (x-axis). If your classifier is performing at chance (basically guessing) you’d have about the same percentage of False Positives as True Positives. Ideally, your plot will increase faster along the y-axis than the x-axis as displayed in the ROC curve below.
+Below is the model’s Receiver Operating Characteristic (ROC) curve for which we plot the True Positive Rate (y-axis) over the False Positive Rate (x-axis). If your classifier is performing at chance (basically guessing) you’d have about the same percentage of False Positives as True Positives. Ideally, your plot will increase faster along the y-axis than the x-axis as displayed in the ROC curve below.
 
 <br>
 
