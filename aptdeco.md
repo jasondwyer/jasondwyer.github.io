@@ -9,7 +9,9 @@ bigimg: /img/orange-sofa.jpg
 
 I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with [Insight Data Science](http://insightdatascience.com) NYC (S17). My goal was to build a machine learning model to predict which furniture items are likely to sell. The best results came from a Random Forest classifier tuned with GridSearch and cross-validation achieving accuracy of 92%. This work will have a real-world impact on how AptDeco ranks their products to users, boosting item sell-through and helping maximize revenue.
 
+
 ***
+
 
 In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
 
@@ -29,7 +31,7 @@ In consulting with AptDeco, we decided on a strategy to try developing a machine
 
 A cursory glance over the data revealed various different product types: sofas, storage units, dressers, lamps. And the list goes on. I was initially overwhelmed and pestered by thoughts of how well dressers and lamps would cross-predict, that is, would knowing how dressers sell allow you to make predictions on lamps? Given the limited time and the desire to make the greatest impact possible, I refocused on the iterative MVP process and decided to narrow the focus to sofas. These are one of the higher-volume sellers, so this would be a great place to start.
 
-After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for NULL values and munging it all together, I finally had a Pandas DataFrame that contained my features. Here is an example item:
+After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for `NULL` values and munging it all together, I finally had a Pandas DataFrame that contained my features. Here is an example item:
 
 
 | item_id | price | age | condition | views | wishlist_adds | cart_adds
