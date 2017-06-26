@@ -74,7 +74,7 @@ Another thing that helps us visualize classifier performance is a Confusion Matr
 
 <br>
 
-![Confusion Matrix](/img/aptdeco_confusion_matrix.png)
+![Confusion Matrix](/img/aptdeco_confusion_matrix_small.png)
 
 <br>
 
