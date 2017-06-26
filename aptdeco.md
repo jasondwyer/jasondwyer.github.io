@@ -9,9 +9,9 @@ bigimg: /img/orange-sofa.jpg
 
 I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with [Insight Data Science](http://insightdatascience.com) NYC (S17). My goal was to build a machine learning model to predict which furniture items are likely to sell. The best results came from a Random Forest classifier tuned with GridSearch and cross-validation achieving accuracy of 92%. This work will have a real-world impact on how AptDeco ranks their products to users, boosting item sell-through and helping maximize revenue.
 
-
+<br>
 ***
-<br><br>
+<br>
 
 In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
 
@@ -47,26 +47,38 @@ After GridSearch, my Random Forest with 250 trees and some other tuned hyperpara
 
 For those unfamiliar, Random Forest is an ensemble machine learning algorithm. The idea is that you combine a bunch of weak learners, in this case Decision Trees (think ‘twenty questions’), train them on subsets of the data, and let them vote on what the classification should be. In the end, when the trees are polled, there will be a majority decision about which class the data represent. The basic premise is that, much like in the real world, the group decision is better than the individual.
 
+<br>
 **Further breaking down the results**
 
 Often when evaluating the performance of a classifier we care about more than accuracy. Especially when classes are not balanced. For example, if you’re predicting the percentage of fire trucks that are red and just guess ‘Yes’ (red) every time, you can get 90% accuracy given that 90% of fire trucks are red. But you haven’t really learned anything. 
 
 Below is the model’s Receiver Operatic Characteristic (ROC) curve for which we plot the True Positive Rate (y-axis) over the False Positive Rate (x-axis). If your classifier is performing at chance (basically guessing) you’d have about the same percentage of False Positives as True Positives. Ideally, your plot will increase faster along the y-axis than the x-axis as displayed in the ROC curve below.
 
+<br>
 
 ![Crepe](http://lafenicegelato.com/wp-content/uploads/2014/09/crepes-with-chocolate.jpg)
+
+<br>
 
 Another thing that helps us visualize classifier performance is a Confusion Matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this bias is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
 
+<br>
+
 ![Crepe](http://lafenicegelato.com/wp-content/uploads/2014/09/crepes-with-chocolate.jpg)
 
+<br>
+
 To sum up, our goal was to identify items that will sell from a catalog of furniture. We collected and formatted data, experimented with a few machine learning algorithms, and selected and tuned the best one. In the end, the classifier is able to identify a subset of items that are likely to sell. Given a new item, we can allow the classifier to make a prediction from the item’s features and get an answer. By taking the subset of items predicted to sell and then further applying an additional ranking algorithm on top, we can get closer to showing the best items first. Of course, proper testing before putting this model into production will be key. It will also need to be monitored to ensure it continues to behave as expected as we go forward.
+
+<br>
 
 **Many more directions**
 
 Recalling our original focus on MVP, we got fairly decent results and we got them quickly. And that’s great. But that said, there are many more directions we can go. First, we will need to adapt our algorithm as time passes. In addition, there are many other features we can play with. For example, the items have user-written descriptions that may hold predictive value. Can we apply Natural Language Processing using algorithms such as Word2Vec to get more item features? The items also have images. Can we use computer vision algorithms to extract features from product images? Can we use customer browsing patterns to present each user with customized results tailored specifically to them using Collaborative Filtering? These are all really interesting avenues to explore and will likely allow us to squeeze even more performance out of our algorithm. Ultimately, using this trained model should get us closer to the real goal of increasing product sell-through and boosting revenue. Time will tell.
 
 *I want to extend a special thanks to Ramón Cacho and the team at AptDeco.com for the opportunity to work with their data and help make an impact on their business operations.*
+
+<br>
 
 **A bit about me**
 
