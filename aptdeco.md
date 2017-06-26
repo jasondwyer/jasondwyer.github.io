@@ -16,6 +16,7 @@ I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with 
 <br>
 
 ### Consulting for AptDeco
+
 In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
 
 Started out of Y-Combinator, the Insight program is seven weeks of intense immersion into data science, the kind that is poised to meaningfully impact nearly every industry that exists. More than that, it’s an opportunity to focus on a self-driven project, get your hands dirty with the little details, and get a crash course in the everyday tools that drive the booming data science industry.
@@ -58,7 +59,7 @@ After GridSearch, my Random Forest with 250 trees and some other tuned hyperpara
 For those unfamiliar, Random Forest is an ensemble machine learning algorithm. The idea is that you combine a bunch of weak learners, in this case Decision Trees (think ‘twenty questions’), train them on subsets of the data, and let them vote on what the classification should be. In the end, when the trees are polled, there will be a majority decision about which class the data represent. The basic premise is that, much like in the real world, the group decision is better than the individual.
 
 <br>
-**Further breaking down the results**
+### Further breaking down the results
 
 Often when evaluating the performance of a classifier we care about more than accuracy. Especially when classes are not balanced. For example, if you’re predicting the percentage of fire trucks that are red and just guess ‘Yes’ (red) every time, you can get 90% accuracy given that 90% of fire trucks are red. But you haven’t really learned anything. 
 
@@ -82,7 +83,7 @@ To sum up, our goal was to identify items that will sell from a catalog of furni
 
 <br>
 
-**Many more directions**
+### Many more directions
 
 Recalling our original focus on MVP, we got fairly decent results and we got them quickly. And that’s great. But that said, there are many more directions we can go. First, we will need to adapt our algorithm as time passes. In addition, there are many other features we can play with. For example, the items have user-written descriptions that may hold predictive value. Can we apply Natural Language Processing using algorithms such as Word2Vec to get more item features? The items also have images. Can we use computer vision algorithms to extract features from product images? Can we use customer browsing patterns to present each user with customized results tailored specifically to them using Collaborative Filtering? These are all really interesting avenues to explore and will likely allow us to squeeze even more performance out of our algorithm. Ultimately, using this trained model should get us closer to the real goal of increasing product sell-through and boosting revenue. Time will tell.
 
@@ -90,7 +91,7 @@ Recalling our original focus on MVP, we got fairly decent results and we got the
 
 <br>
 
-**A bit about me**
+### A bit about me
 
 My name is Jason Dwyer and I performed this work while a Fellow with Insight Data Science in NYC (S17). Prior to that I was a Regional Manager for a NJ-based specialty chemical company. I received my PhD in Neuroscience from Yale in 2015, and have over a decade of experience in the pharmaceutical research industry. I am a self-taught programmer for iOS and Android and a general enthusiast of all things software and machine learning.
 
