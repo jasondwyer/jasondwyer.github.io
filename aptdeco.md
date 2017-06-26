@@ -11,7 +11,7 @@ I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with 
 
 
 ***
-
+<br><br>
 
 In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
 
