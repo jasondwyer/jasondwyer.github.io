@@ -5,7 +5,7 @@ subtitle: Decoding product popularity with machine learning
 bigimg: /img/orange-sofa.jpg
 ---
 
-**TL;DR**
+### TL;DR
 
 I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with [Insight Data Science](http://insightdatascience.com) NYC (S17). My goal was to build a machine learning model to predict which furniture items are likely to sell. The best results came from a Random Forest classifier tuned with GridSearch and cross-validation achieving accuracy of 92%. This work will have a real-world impact on how AptDeco ranks their products to users, boosting item sell-through and helping maximize revenue.
 
