@@ -92,6 +92,6 @@ Recalling our original focus on MVP, we got fairly decent results and we got the
 
 ### A bit about me
 
-My name is Jason Dwyer and I performed this work while a Fellow with Insight Data Science in NYC (S17). Prior to that I was a Regional Manager for a NJ-based specialty chemical company. I received my PhD in Neuroscience from Yale in 2015, and have over a decade of experience in the pharmaceutical research industry. I am a self-taught programmer for iOS and Android and a general enthusiast of all things software and machine learning.
+My name is Jason Dwyer and I performed this work while I was a Fellow with Insight Data Science in NYC (S17). Prior to that I was a Regional Manager for a NJ-based specialty chemical company. I received my PhD in Neuroscience from Yale in 2015, and have over a decade of experience in the pharmaceutical research industry. I am a self-taught programmer for iOS and Android and a general enthusiast of all things software and machine learning.
 
 Get in touch on Twitter [@jm_dwyer](https://twitter.com/JM_Dwyer)
