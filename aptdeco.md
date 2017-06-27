@@ -53,9 +53,9 @@ My labels were simply boolean values:  `True = Purchased`, `False = Not Purchase
 
 Next came model selection. Initially I experimented with a handful of classifiers without much tuning. The models themselves were the Scikit-Learn implementations: Stochastic Gradient Descent, Logistic Regression and Random Forest. Random Forest provided the best accuracy out of the box at 88%. Leveraging the elegant tool sets provided by SKLearn, I let `GridSearchCV` do the heavy lifting in determining the best model hyperparameters.
 
-After GridSearch, my Random Forest with 250 trees and some other tuned hyperparamters achieved 92% accuracy.
+After grid search, my random forest with 250 trees and some other tuned hyperparameters achieved 92% accuracy.
 
-For those unfamiliar, Random Forest is an ensemble machine learning algorithm. The idea is that you combine a bunch of weak learners, in this case Decision Trees (think ‘twenty questions’), train them on subsets of the data, and let them vote on what the classification should be. In the end, when the trees are polled, there will be a majority decision about which class the data represent. The basic premise is that, much like in the real world, the group decision is better than the individual.
+For those unfamiliar, random forest is an ensemble machine learning algorithm. The idea is that you combine a bunch of weak learners, in this case decision trees (think ‘twenty questions’), train them on subsets of the data, and let them vote on what the classification should be. In the end, when the trees are polled, there will be a majority decision about which class the data represent. The basic premise is that, much like in the real world, the group decision is better than the individual.
 
 <br>
 ### Further breaking down the results
@@ -70,7 +70,7 @@ Below is the model’s Receiver Operating Characteristic (ROC) curve for which w
 
 <br>
 
-Another thing that helps us visualize classifier performance is a Confusion Matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
+Another thing that helps us visualize classifier performance is a confusion matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
 
 <br>
 
@@ -84,7 +84,7 @@ To sum up, our goal was to identify items that will sell from a catalog of furni
 
 ### Many more directions
 
-Recalling our original focus on MVP, we got fairly decent results and we got them quickly. And that’s great. But that said, there are many more directions we can go. First, we will need to adapt our algorithm as time passes. In addition, there are many other features we can play with. For example, the items have user-written descriptions that may hold predictive value. Can we apply Natural Language Processing using algorithms such as Word2Vec to get more item features? The items also have images. Can we use computer vision algorithms to extract features from product images? Can we use customer browsing patterns to present each user with customized results tailored specifically to them using Collaborative Filtering? These are all really interesting avenues to explore and will likely allow us to squeeze even more performance out of our algorithm. Ultimately, using this trained model should get us closer to the real goal of increasing product sell-through and boosting revenue. Time will tell.
+Recalling our original focus on MVP, we got fairly decent results and we got them quickly. And that’s great. But that said, there are many more directions we can go. First, we will need to adapt our algorithm as time passes. In addition, there are many other features we can play with. For example, the items have user-written descriptions that may hold predictive value. For example, we can try to apply natural language processing using word2vec to identify items with descriptions similar to those that sell. The items also have images. We can use computer vision algorithms to extract features from product images. Additionally, we can use customer browsing patterns to present each user with results tailored specifically to them using collaborative filtering. These are all really interesting avenues to explore and will likely allow us to squeeze even more performance out of our algorithm. Ultimately, using this trained model should get us closer to the real goal of increasing product sell-through and boosting revenue. Time will tell.
 
 *I want to extend a special thanks to Ramón Cacho and the team at AptDeco.com for the opportunity to work with their data and help make an impact on their business operations.*
 
