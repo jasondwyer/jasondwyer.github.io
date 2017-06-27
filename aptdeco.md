@@ -23,7 +23,7 @@ Started out of Y-Combinator, the Insight program is seven weeks of intense immer
 
 From the beginning, Insight laid out our specific goals, taking a page straight from the Agile philosophy – create an MVP (or, Minimum Viable Product), collect feedback, and improve. By using this iterative process, you should be improving on your core product on each iteration. This philosophy is also supremely relevant to a business setting. Often you can get eighty percent of the way there with only twenty percent of the resources. Many Insight Fellows, including me, come from scientific and academic backgrounds where the goal is to be as thorough as possible, no matter the time it takes. In business, this is just not possible. Companies need to move fast. So the goal should be to aim for the biggest impact you can make in the least time and with as few resources as possible. So this was the framework within which I set out on my summer project.
 
-For my Insight project, I had the opportunity to work on a consulting project for AptDeco.com (Also started out of Y-Combinator. I know, small world). AptDeco is a peer-to-peer marketplace where users can buy and sell furniture. The AptDeco team handles all of the logistics, making furniture buying much easier on the customer than other marketplaces.
+While at Insight, I had the opportunity to consult for AptDeco.com (Also started out of Y-Combinator. I know, small world). AptDeco is a peer-to-peer marketplace where users can buy and sell furniture. The AptDeco team handles all of the logistics, making furniture buying much easier on the customer than other marketplaces.
 
 A quick glance at the AptDeco homepage will give you a feel for how the site is structured; items are divided into categories, and then further into smaller categories. So say for example you’re feeling rather lounge-y and decide to browse ‘Sofas.’ At the time of writing, there are 1,494 sofas displayed. This leads us up to the problem and the task at hand:
 
@@ -70,7 +70,7 @@ Below is the model’s Receiver Operating Characteristic (ROC) curve for which w
 
 <br>
 
-Another thing that helps us visualize classifier performance is a Confusion Matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this bias is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
+Another thing that helps us visualize classifier performance is a Confusion Matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
 
 <br>
 
