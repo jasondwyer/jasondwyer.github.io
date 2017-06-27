@@ -70,7 +70,7 @@ Below is the model’s Receiver Operating Characteristic (ROC) curve for which w
 
 <br>
 
-Another thing that helps us visualize classifier performance is a confusion matrix. This allows us to clearly see how often the classifier makes errors. For our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. 
+Another thing that helps us visualize classifier performance is a confusion matrix, as seen in the below heatmap. This allows us to clearly see how often the classifier makes errors. Here we are showing ratios. So given items that didn't sell, our classifier got about 98% of these right and only made an error on less than 2%. This illustrates that for our case, the classifier is much better at determining items that will not sell. And what’s great for us is that it rarely gives false positives. This is important because one thing we definitely do not want to do is push ‘less good’ items to the top of the list in spite of better items. But alas, this is a double-edged sword as the classifier has a slight tendency to miss items that will sell, classifying them as non-sellers. Ultimately, it correctly predicts roughly 40% of items that will sell, giving us a subset of correct predictions to work with. 
 
 <br>
 
