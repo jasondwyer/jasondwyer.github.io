@@ -29,7 +29,6 @@ navbar-links:
     - Apps: "http://appstore.com/jasondwyer"
     - Insight Project: "aptdeco"
     - ULRRect: "ulrrect"
-    - Research: "research"
   Home: "http://jasondwyer.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
