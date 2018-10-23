@@ -17,8 +17,6 @@ I consulted for [AptDeco.com](http://www.aptdeco.com) while I was a Fellow with 
 
 ### Consulting for AptDeco
 
-In the early summer of 2017, I left my full-time position at Water Dynamics to join Insight Data Science as a Fellow. 
-
 Started out of Y-Combinator, the Insight program is seven weeks of intense immersion into data science, the kind that is poised to meaningfully impact nearly every industry that exists. More than that, it’s an opportunity to focus on a self-driven project, get your hands dirty with the little details, and get a crash course in the everyday tools that drive the booming data science industry.
 
 From the beginning, Insight laid out our specific goals, taking a page straight from the Agile philosophy – create an MVP (or, Minimum Viable Product), collect feedback, and improve. By using this process, you improve your core product on each iteration. This philosophy is also supremely relevant to a business setting. Often you can get eighty percent of the way there with only twenty percent of the resources. Many Insight Fellows, including me, come from scientific and academic backgrounds where the goal is to be as thorough as possible, no matter the time it takes. In business, this is just not possible. Companies need to move fast. So the goal should be to aim for the biggest impact you can make in the least time and with as few resources as possible. This was the framework within which I set out on my summer project.
@@ -92,6 +90,6 @@ Recalling our original focus on MVP, we got fairly decent results and we got the
 
 ### A bit about me
 
-My name is Jason Dwyer and I performed this work while I was a Fellow with Insight Data Science in NYC (S17). Prior to that I was a Regional Manager for a NJ-based specialty chemical company. I received my PhD in Neuroscience from Yale in 2015, and have over a decade of experience in the pharmaceutical research industry. I am a self-taught programmer for iOS and Android and a general enthusiast of all things software and machine learning.
+My name is Jason Dwyer and I performed this work while I was a Fellow with Insight Data Science in NYC (S17). I received my PhD in Neuroscience from Yale in 2015, and have over a decade of experience in the pharmaceutical research industry. I am a self-taught programmer for iOS and Android and a general enthusiast of all things software and machine learning.
 
 Get in touch on Twitter [@jm_dwyer](https://twitter.com/JM_Dwyer)
