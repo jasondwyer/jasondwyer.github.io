@@ -1,0 +1,7 @@
+---
+layout: post
+title: Writing user-defined funstions for Apache Hive
+subtitle: Coming soon...
+---
+
+I'm currently writing up a tutorial on devloping uUser-Defined Functions (UDFs) in Hive using both Java an Pyspark. More coming soon...
