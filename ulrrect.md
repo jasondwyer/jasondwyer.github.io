@@ -14,7 +14,7 @@ Why does `ULRRect` exist?
 
 Building `UIView` frames programmatically is challenging. The options are to hard-code fixed sizes, which does not scale depending on device size. Alternatives include setting the size as a ratio of the width or height of the screen: `self.view.frame.size.width / 2` or `self.view.frame.size.width * 0.2`. The latter method is problematic for a couple reasons. First, it is verbose, which makes it harder to write. And second, it is hard to read and get a *picture* in your head of how the view will look on screen. `UltraLightRect` abstracts away the verbose code required for setting `UIView` frames programmatically and allows you to pass percentages (i.e. 28%) to build the view frame. The sizes scale depending on the size of the iPhone or iPad. 
 
-`UltraLightRect` provides classes and he;per functions to easily build `UIView` frames programmatically. `UIView` frames (`CGRect`) are built as percentages of screen width, which allows basic code to be adaptive depending on screen size (i.e. iPhone vs iPad).
+`UltraLightRect` provides classes and helper functions to easily build `UIView` frames programmatically. `UIView` frames (`CGRect`) are built as percentages of screen width, which allows basic code to be adaptive depending on screen size (i.e. iPhone vs iPad).
 
 To get started simply clone the `ULRRect` project to your local file system and copy the helper classes into your XCode project. There are helper classes for both Objective-C and Swift. Note that the Objective-C classes can be used in a Swift project and vice versa, although the most straight-forward way is to use the Obj-C class in an Obj-C project. The same goes for the Swift helper class.
 
