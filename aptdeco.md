@@ -31,9 +31,9 @@ A fair first shot is to simply show the items chronologically, that is, the most
 
 In consulting with AptDeco, we decided on a strategy to develop a machine learning model to predict, with some level of certainty, which items will sell. To make this more concrete, let me explain some of the data we have. We know some of the item features: price, age, condition, as well as details about how users interact with the items, such as item views and adding items to a checkout cart. We also know whether items were purchased or not so we can use this info as labels for our binary classifier. Great so how do we get started?
 
-A cursory glance over the data revealed various different product types: sofas, storage units, dressers, lamps. And the list goes on. I was initially overwhelmed and pestered by thoughts of how well dressers and lamps would cross-predict, that is, would knowing how dressers sell allow you to make predictions on lamps? Given the limited time and the desire to make the greatest impact possible, I refocused on the iterative MVP process and decided to narrow the focus to sofas. These are one of the higher-volume sellers, so this would be a great place to start.
+A cursory glance over the data revealed various different product types: sofas, storage units, dressers, lamps. And the list goes on. I was intrigued by whether products would cross-predict, that is, would knowing how dressers sell allow you to make predictions on lamps? Given the limited time and the desire to make the greatest impact possible, I decided to narrow the focus to sofas. These are one of the higher-volume sellers, so this would be a great place to start.
 
-After flexing my burgeoning Pandas skills to apply the requisite data cleaning, accounting for `NULL` values and munging it all together, I finally had a Pandas DataFrame that contained my features for every sofa item.
+After flexing my Pandas skills to apply the requisite data cleaning, accounting for `NULL` values and munging it all together, I finally had a Pandas DataFrame that contained my features for every sofa item.
 
 
 | Features |
