@@ -464,6 +464,17 @@ footer .theme-by {
   }
 }
 
+/* --- Research note --- */
+
+.research-note .intro-header .page-heading h1 {
+  font-size: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .research-note .intro-header .page-heading h1 {
+    font-size: 40px;
+  }
+}
+
 .caption {
   text-align: center;
   font-size: 14px;
