@@ -10,3 +10,5 @@ I am a data scientist and a neuroscientist and interested in the interface of th
 <p><br></p>
 
 [ORCID profile](https://orcid.org/0009-0006-7648-9086)
+
+Contact: jason@sentieum.com
