@@ -4,6 +4,16 @@ title:
 subtitle: 
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KW2KT262S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4KW2KT262S');
+</script>
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   {% if post.category == "research" %}
