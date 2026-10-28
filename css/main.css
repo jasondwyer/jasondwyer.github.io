@@ -466,6 +466,10 @@ footer .theme-by {
 
 /* --- Research note --- */
 
+.research-note .tldr-list li + li {
+  margin-top: 12px;
+}
+
 .research-note .intro-header .page-heading h1 {
   font-size: 30px;
 }
