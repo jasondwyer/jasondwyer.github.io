@@ -1,43 +1,46 @@
 ---
 layout: page
-title: 
-subtitle: 
+title:
+subtitle:
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KW2KT262S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KW2KT262S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-4KW2KT262S');
-</script>
+    gtag('config', 'G-4KW2KT262S');
+  </script>
+</head>
 
 <div class="posts-list">
   {% for post in paginator.posts %}
   {% if post.category == "research" %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-	
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %}
     </a>
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
-  
+
     <div class="post-entry">
-      {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | truncatewords: 50 | strip_html | xml_escape }}{% endif %}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | truncatewords: 50 | strip_html | xml_escape
+      }}{% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
-  
-   </article>
+
+  </article>
   {% endif %}
   {% endfor %}
 </div>
